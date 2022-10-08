@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>House notes!</title>
+  </head>
+  <body>
+    <h1>Welcome to our house notes website - written in rust!</h1>
+    <h3>You can post a new note here</h3>
+    <form action="192.168.1.3:7878" method="POST">
+        <label for="username">Username :</label><br>
+        <input type="text" id="username" name="username" placeholder="Pietro (default username)" required><br>
+        <textarea name="msg" rows="10" cols="30" placeholder="Type here :)" required></textarea>
+        <input type="submit" value="Post">
+      </form> 
+    <br>
+    <h3>there are the notes that have been posted</h3>
+  </body>
+</html>
